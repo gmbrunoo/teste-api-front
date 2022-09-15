@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="CSS">
+    <meta name="author" content="Bruno Godinho e Isaque Costa">
+
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="/img/partly-cloudy-day.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./styles/weather.css">
+
+    <script src="./js/weather.js" defer></script>
+</head>
+<body>
+    <div class="main">
+
+        <div class="wrap-nav">
+            
+            <div class="info" id="info"></div>
+            
+            <div class="search">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" class="search-bar" placeholder="Change Location" id="search" />
+                <button id="submit-button">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="wrap-details">
+            <div class="climate" id="climate"></div>
+
+            <div class="forecast">
+                <div class="time">
+                    <span>upcoming weather forecasts</span>
+                </div>
+               
+                <div class="forecast-time" id="forecast-time"></div>
+            </div>
+            
+        </div>
+        
+        <div class="wrap-forecast" id="wrap-forecast"></div>
+ 
+    </div>
+
+    
+</html>

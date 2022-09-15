@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="30DaysCSS">
+    <meta name="author" content="Bruno Godinho">
+    <meta name="keywords" content="CSS">
+    <title>Responsive Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="imgBox">
+            <img src="./img/beautiful-sunset-mountains-landscape-with-sun-light-shining-through-orange-clouds-fog.jpg" alt="">
+        </div>
+        <div class="contentBox">
+            <div class="formBox">
+                <h2>Login</h2>
+                <form onsubmit="return authenticate()" >
+                    <div class="inputBox">
+                        <span>Username</span>
+                        <input type="text" name="" id="username">
+                    </div>
+                    <div class="inputBox">
+                        <span>Password</span>
+                        <input type="password" name="" id="password">
+                    </div>
+                    <div class="remember">
+                        <label><input type="checkbox" name="">Remember me</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Sign in" id="signin">
+                    </div>
+                    <div class="inputBox">
+                        <p>Don't have an account? <a href="#"> Sign up!</a></p>
+                    </div>
+                </form>
+                <h3>Login with social media</h3>
+                <ul class="sci">
+                    <li><img src="./img/facebook.png" alt=""></li>
+                    <li><img src="./img/twitter.png" alt=""></li>
+                    <li><img src="./img/instagram.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/login.js">
+    </script>
+</body>
+</html>
